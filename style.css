@@ -225,7 +225,7 @@ ul li {
     color: white;
     display: grid;
     justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     width: 60%;
     gap: 1rem;
 }
